@@ -1,0 +1,161 @@
+body {
+    background: #FAC4DE;
+}
+
+header {
+    padding: 40px 0;
+}
+/* Encabezado*/
+.contenedorArriba{
+    display: flex;
+    width: 100vw;
+}
+.arribaIzq{    
+    display: flex;
+    flex: 1;
+    height: 20vh;
+}
+.arribaDer{
+    display: flex;
+    flex: 7;
+    height: 20vh;
+}
+.arribaDer p{
+    align-items: left;
+    margin: 40px;
+    font-size: 70px;
+    font-style: arial;
+    color: purple;
+}
+.aluraLogo{
+    width: 100%;
+    height: 100%;
+}
+/* Titulos */
+.contenedorTitulos{
+    display: flex;
+    height: 25px;
+}
+
+.tituloIzq{    
+    font-size: 25px;
+    align-items: center;
+    place-content: center;
+    display: flex;
+    flex: 1;
+}
+
+.tituloDer{    
+    font-size: 25px;
+    align-items: center;
+    place-content: center;
+    display: flex;
+    flex: 1;
+}
+/* Contenido central */
+.contenedorCentral{
+    display: flex;
+    height: 50vh;
+}
+.centroIzq{
+    
+    flex: 1;
+    padding: 3%;
+    place-items: center;
+}
+.centroIzq textarea{
+    width: 47vw;
+    height: 40vh;
+}
+.textbox{
+    width: 47vw;
+    height: 40vh;
+}
+.centroDer{
+    flex: 1;
+    padding: 3%;    
+    place-items: center;
+    place-content: center;
+}
+.centroDer textarea{
+    width: 47vw;
+    height: 40vh;
+}
+.centroDer img{
+    margin: 10%;
+    height: 25vh;
+    width: 25vw;
+}
+.copiar{
+    margin-right: 0;
+    margin-left: 75%;
+}
+/* Botones */
+.botones{
+    display: flex;
+    padding: 2%;
+}
+.botonesIzq{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    place-content: center;
+}
+.botonesDer{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    place-content: center;
+}
+.botonesIzq{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    place-content: center;
+}
+
+.copiar{
+   align-items: center;
+    justify-content: center;
+    padding: 2%;
+    gab: 8px;
+    width: 50px%;
+    background-color: #E42BF3;
+    border-radius: 25px;
+    font-family: inter;
+    font-size: 18px;
+    line-height: 1%;
+    text-align: center;
+    color: #FFFFFF;
+    border: solid #FFFFFF; 
+}
+
+
+#btn-encriptar, #btn-desencriptar{
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+    gab: 8px;
+    width: 25%;
+    background-color: #E42BF3;
+    border-radius: 25px;
+    font-family: inter;
+    font-size: 18px;
+    line-height: 1%;
+    text-align: center;
+    color: #FFFFFF;
+    border: solid #FFFFFF;
+}
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.fin{
+    color: hotpink;
+    font-size: 30px;
+    margin: 20px;
+}

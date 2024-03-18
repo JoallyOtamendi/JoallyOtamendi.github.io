@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="encriptador.css">
+</head>
+
+<body>
+    <header>
+        <div class="contenedorArriba">
+            <div class="arribaIzq">
+                <img src="aluraLogo.jpeg" class="aluraLogo">
+            </div>
+            <div class="arribaDer">
+                <p id="nombre">Encriptador de textos</p>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!-- Titulos -->
+        <div class="contenedorTitulos">
+            <div class="tituloIzq">
+                <form>
+                    <label id="mensaje">Inserte mensaje</label>
+                </form>
+            </div>
+            <div class="tituloDer">
+                <label>Mensaje</label>
+            </div>
+        </div>
+        <!-- Contenido central -->
+        <div class="contenedorCentral">
+            <div class="centroIzq">
+                <textarea name="texto" id="texto" cols="30" rows="10" placeholder="Ingresa el texto aquí (en minúsculas y sin acentos)"></textarea>
+            </div>
+            <div class="centroDer">
+                <form>
+                    <textarea name="texto-output" id="texto-output" cols="30" rows="10"></textarea>                    
+                </form>
+            </div>            
+        </div>
+        <!-- Boton copiar-->
+        <button name="copiar" class="copiar" id="btn-copiar">Copiar</button>
+        <!-- Botones -->
+        <div class="botones">
+            <div class="botonesIzq">
+                <button name="btn-encriptar" id="btn-encriptar">Encriptar</button>
+            </div>
+            <div class="botonesDer">
+                <button name="btn-desencriptar" id="btn-desencriptar">Desencriptar</button>
+            </div>
+            
+        </div>
+    </main>
+    <footer>
+        <p class="fin">Joally Anaya Otamendi</p>
+    </footer>
+
+    <div></div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
