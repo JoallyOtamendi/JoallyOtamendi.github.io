@@ -4,6 +4,10 @@
     margin: 2% 15% 2%;
 }
 
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    background-color: #8973DE;
+}
+
 /*Tablet*/
 @media screen and (max-width: 768px) {
     .img__carrusel {
