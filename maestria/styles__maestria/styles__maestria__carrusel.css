@@ -1,0 +1,22 @@
+.img__carrusel {
+    width: 50%;
+    height: 350px;
+    margin: 2% 25% 2%;
+}
+
+/*Tablet*/
+@media screen and (max-width: 768px) {
+    .img__carrusel {
+        height: 250px;
+    }
+}
+
+
+/*celular*/
+@media screen and (max-width: 0) {
+    .img__carrusel {
+        height: 100px;
+        width: 80%;
+        margin: 2% 8%;
+    }
+}

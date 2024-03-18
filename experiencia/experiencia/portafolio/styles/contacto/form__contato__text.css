@@ -1,0 +1,19 @@
+.form__contato__text{
+    display: flex;
+    flex-direction: column;
+}
+
+/*Tablet*/
+@media screen and (max-width: 768px){
+    .form__contato__text{
+     width: 100%;
+    }
+    }
+
+
+/*celular*/
+@media screen and (max-width: 0){
+    .form__contato__text{
+     width: 100%;
+    }
+ }

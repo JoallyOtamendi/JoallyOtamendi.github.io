@@ -1,0 +1,44 @@
+#mas{
+    text-align: center;
+}
+
+.mas__informacion{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 20px;
+}
+
+.i__mas__informacion{
+    width: 300px;
+    height: 200px;
+    margin: 40px;
+}
+
+.mas__informacion p{
+    font-size: 20px;
+    margin: 30px;
+}
+
+/*Tablet*/
+@media screen and (max-width: 768px) {
+    .i__mas__informacion{
+        display: none;
+    }
+    .mas__informacion{
+        width: 90%;
+        margin: 5px;
+    }
+}
+
+
+/*celular*/
+@media screen and (max-width: 0) {
+    .i__mas__informacion{
+        display: none;
+    }
+    .mas__informacion{
+        width: 90%;
+        margin: 5px;
+    }
+}

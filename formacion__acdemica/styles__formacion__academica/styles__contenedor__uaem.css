@@ -1,0 +1,82 @@
+.contenedor__uaem {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.contenedor__datos__uaem {
+    width: 45%;
+    height: 200px;
+    margin: 10px;
+    text-align: center;
+}
+
+.contenedor__datos__uaem p{
+    font-size: 35px;
+}
+
+.contenedor__datos__uaem h1 {
+    color: #206408;
+    font-size: 50px;
+}
+
+.mapa{
+    width:  400px; 
+    height: 300px; 
+    display: flex;
+}
+
+/*Tablet*/
+@media screen and (max-width: 768px) {
+    .contenedor__uaem {
+        flex-direction: column;
+    }
+
+    .contenedor__datos__uaem {
+        width: 90%;
+        margin: 5px;
+        height: 200px;
+    }
+
+    .contenedor__datos__uaem h1 {
+        font-size: 45px;
+    }
+    .mapa{
+        border: 1px;
+        width: 95%;
+        height: 200px;
+    }
+}
+
+
+/*celular*/
+@media screen and (max-width: 0) {
+    .contenedor__uaem {
+        flex-direction: column;
+        justify-content: center;
+        margin: 0;
+        width: 70%;
+        height: 200px;
+    }
+
+    .contenedor__datos__uaem {
+        width: 90%;
+        margin: 5px;
+        height: 10px;
+    }
+
+    .contenedor__datos__uaem h1 {
+        font-size: 35px;
+    }
+
+    .contenedor__datos__uaem p{
+        font-size: 15px;
+        margin: 3px;
+    }
+
+    .mapa{
+        border: 1px;
+        width: 95%;
+        height: 200px;
+    }
+}

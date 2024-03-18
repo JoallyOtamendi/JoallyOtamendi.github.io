@@ -1,0 +1,56 @@
+.documentos__titulo{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 15px;
+}
+
+.documentos__titulo h1{
+    color: #206408;
+}
+
+.documentos__link{
+    font-size: 20px;
+    box-sizing: border-box;
+    border: 3px solid #206408;
+    border-radius: 15px;
+    text-decoration: none;
+    color: #206408;
+    padding: 5px;
+    margin-left: 400px;
+    height: 1%;
+}
+
+a:hover{
+    background-color: #206408;
+    color: white;
+}
+
+/*Tablet*/
+@media screen and (max-width: 768px) {
+    .documentos__titulo{
+        width: 90%;
+    }
+    .documentos__titulo h1{
+        font-size: 25px;
+    }
+    .documentos__link{
+        font-size: 15px;
+        margin-left: 30px;
+    }
+}
+
+
+/*celular*/
+@media screen and (max-width: 0) {
+    .documentos__titulo{
+        width: 90%;
+    }
+    .documentos__titulo h1{
+        font-size: 20px;
+    }
+    .documentos__link{
+        font-size: 10px;
+        margin-left: 3px;
+    }
+}

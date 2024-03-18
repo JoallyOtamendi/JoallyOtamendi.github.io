@@ -1,0 +1,21 @@
+.menu__list__item__contacto{
+    color: var(--magenta);
+}
+
+.menu__list__item__contacto:hover{
+    color: var(--fiusha);
+}
+
+.menu__list__item__contacto{
+    display: none;
+}
+
+/*Tablet*/
+@media screen and (max-width: 768px){
+    .menu__list__item__contacto{
+        display: block;
+        font-weight: bold;
+    }
+}
+
+

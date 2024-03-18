@@ -1,0 +1,32 @@
+:root{
+    --rosa-claro: #F091CF;
+    --fiusha: #F5088E;
+    --magenta: #950657;
+    --violeta: #910695;
+    --lila: #C847CB;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--cor-de-fundo) ;
+    font-family: 'Raleway';
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    background-color: #F091CF;
+}
+
+ol, ul,li {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: var(--cor-de-link);
+}
+
+h1, h2, h3, h4, h5, p, input, button, textarea{
+    color: var(--magenta);
+    border: none;
+    outline: none;
+}

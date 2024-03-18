@@ -1,0 +1,24 @@
+.title__div{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+/*Tablet*/
+@media screen and (max-width: 768px){
+    .title__div{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    }
+
+
+/*celular*/
+@media screen and (max-width: 0){
+    .title__div{
+        flex-direction: column;
+    }
+    }

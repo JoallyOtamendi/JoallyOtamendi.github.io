@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="./main.js"></script>
+  <title>Junior</title>
+</head>
+
+<body>
+
+  <div class="container-fluid">
+
+    <header>
+
+      <img class="img__logo" src="./imagenes/junior.png" alt="Logo de Junior">
+
+      <nav>
+        <ul class="menu">
+          <a href="desafio.html">
+            <li>Home</li>
+          </a>
+          <a href="#enlace">
+            <li>Nosotros</li>
+          </a>
+          <a href="inscripciones.html">
+            <li>Inscripciones</li>
+          </a>
+          <a href="novedades.html">
+            <li>Novedades</li>
+          </a>
+          <a href="alumni.html">
+            <li>Alumni</li>
+          </a>
+        </ul>
+      </nav>
+
+    </header>
+
+    <div class="somos">
+      <h1>¿Quiénes somos?</h1>
+      <p>Somos una de las ONG más grandes del mundo. A través del aprendizaje activo en educación financiera,
+        preparación para el trabajo y emprendimiento, preparamos a los jóvenes para que sean protagonistas de su futuro.
+      </p>
+    </div>
+
+    <div class="mision">
+
+      <div class="caja">
+        <img src="./imagenes/desafio.jpg" alt="Desafío de Junior">
+        <h1>El desafío</h1>
+        <p>Insertos en la cuarta revolución industrial, la tecnología irrumpe en todos los ámbitos de la vida:
+          aparecen la robótica, la biotecnología, la inteligencia artificial. Desaparecen profesiones y surgen
+          nuevas.
+        </p>
+      </div>
+
+
+      <div class="caja">
+        <img src="./imagenes/solucion.jpg" alt="Solución de Junior">
+        <h1>La solución</h1>
+        <p>Desde hace 100 años, promovemos una actitud emprendedora en millones de jóvenes para que se sientan
+          protagonistas y emprendedores de sus propias vidas.</p>
+      </div>
+
+      <div class="caja">
+        <img src="./imagenes/impacto.jpg" alt="Impacto de Junior">
+        <h1>Impacto</h1>
+        <p>Trabajamos en cientos de escuelas cada año formando a miles de jóvenes para que estén mejor preparados
+          para
+          el futuro.</p>
+      </div>
+    </div>
+  </div>
+
+    <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="img__carrusel" src="./imagenes/emprendedor.jpeg" class="d-block w-50" alt="Espiritu emprendedor">
+        </div>
+        <div class="carousel-item">
+          <img class="img__carrusel" src="./imagenes/educacion__financiera.jpeg" class="d-block w-50"
+            alt="Educación financiera">
+        </div>
+        <div class="carousel-item">
+          <img class="img__carrusel" src="./imagenes/empleabilidad.jpeg" class="d-block w-50" alt="Empleabilidad">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+  <div class="contenedor">
+    <div class="programas">
+      <h1>Programas de emprendimiento</h1>
+      <div id="contenido">
+        <p>En Junior Achievement México, nos dedicamos apasionadamente a fomentar una mentalidad empresarial entre los
+          jóvenes. Para nosotros, esto significa impulsar el pensamiento emprendedor, estimular la creatividad, inspirar
+          la innovación y desarrollar la capacidad de asumir riesgos de manera informada. Estamos comprometidos con el
+          empoderamiento de los jóvenes, brindándoles las herramientas y la inspiración necesarias para enfrentar el
+          mundo con confianza y visión empresarial. En nuestra travesía, buscamos sembrar las semillas de la iniciativa,
+          cultivando una generación que no solo sueña con el éxito, sino que también está equipada para hacerlo
+          realidad.</p>
+      </div>
+      <button onclick='muestra__oculta("contenido")' class="btn btn-primary" form="contenido">+</button>
+    </div>
+
+    <div class="programas">
+      <h1>Programas de finanzas personales</h1>
+      <div id="contenido2">
+        <p>Nos centramos de lleno en brindar educación financiera a los jóvenes. Para nosotros, esto va más allá de
+          simples lecciones; significa dotarlos con conceptos fundamentales para gestionar su dinero de manera
+          inteligente. Nos apasiona enseñarles a tomar decisiones financieras responsables y a comprender aspectos
+          cruciales, tales como el arte del ahorro, las estrategias de inversión y la sabia gestión del crédito. Estamos
+          comprometidos en ser guías a lo largo de su viaje hacia una salud financiera duradera, proporcionándoles las
+          herramientas y conocimientos necesarios para prosperar económicamente a lo largo de sus vidas.</p>
+      </div>
+      <button onclick='muestra__oculta("contenido2")' class="btn btn-primary" form="contenido2">+</button>
+    </div>
+
+    <div class="programas">
+      <h1>Programas de empleabilidad</h1>
+      <div id="contenido3">
+        <p>Nos esforzamos incansablemente por dotar a los jóvenes con las habilidades esenciales para triunfar en el
+          mercado laboral del mañana. Este compromiso abarca el desarrollo tanto de habilidades técnicas como de
+          habilidades blandas, con un enfoque específico en preparar a la juventud para enfrentar con éxito los desafíos
+          dinámicos que presenta el mundo laboral en constante evolución. Estamos dedicados a construir puentes hacia el
+          futuro, asegurándonos de que cada joven que pasa por nuestras experiencias educativas esté listo y capacitado
+          para brillar en cualquier entorno laboral que el futuro les depare.</p>
+      </div>
+      <button onclick='muestra__oculta("contenido3")' class="btn btn-primary" form="contenido3">+</button>
+    </div>
+  </div>
+
+  <div id="enlace">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.7236928579046!2d-99.1778703267861!3d19.42434084094855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1fec9680ec61f%3A0xeb46405e21012819!2sTorre%20Mayor!5e0!3m2!1ses-419!2smx!4v1707865160532!5m2!1ses-419!2smx"
+      width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/N4U8wbLX8RU?si=IGOp4wU-q0Y--Vtk"
+      title="YouTube video player" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen></iframe>
+  </div>
+
+  <footer>
+
+    <p> Conocé nuestra Política de privacidad | ©2022 Junior Achievement Argentina. Todos los derechos reservados.</p>
+
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

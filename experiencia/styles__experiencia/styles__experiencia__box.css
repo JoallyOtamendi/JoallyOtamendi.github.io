@@ -1,0 +1,38 @@
+.experience__box{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 2rem 0;
+}
+
+.experience__img{
+    width: 800px;
+    height: 300px;
+}
+
+/*Tablet*/
+@media screen and (max-width: 768px){
+    .experience__box{
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+    }
+    .experience__img{
+        width: 90%;
+        height: 200px;
+    }
+    }
+
+
+/*celular*/
+@media screen and (max-width: 0){
+    .experience__box{
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+    }
+    .experience__img{
+        width: 90%;
+        height: 200px;
+    }
+ }

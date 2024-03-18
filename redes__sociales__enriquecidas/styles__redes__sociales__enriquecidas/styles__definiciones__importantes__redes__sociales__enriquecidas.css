@@ -1,0 +1,36 @@
+#definiciones__importantes {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.btn {
+    background-color: white;
+    color: #07629A;
+    padding: 5px;
+    width: 100px;
+    cursor: pointer;
+}
+
+#contenido, #contenido2, #contenido3{ 
+    display: none;
+}
+
+.redes__sociales {
+    width: 100%;
+    margin: 15px 0;
+    padding: 15px;
+    background-color: #07629A;
+}
+
+.redes__sociales h1 {
+    font-size: 21px;
+    color: white;
+    text-align: justify;
+}
+
+.redes__sociales p {
+    font-size: 18px;
+    text-align: justify;
+    color: white;
+}

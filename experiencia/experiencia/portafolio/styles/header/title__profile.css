@@ -1,0 +1,24 @@
+.title__profile{
+    height: 300px;
+    width: 300px;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100%;
+}
+
+/*Tablet*/
+@media screen and (max-width: 768px){
+    .title__profile{
+        width: 200px;
+    }
+}
+
+
+/*celular*/
+@media screen and (max-width: 0){
+    .title__profile{
+        width: 100px;
+    }
+ }

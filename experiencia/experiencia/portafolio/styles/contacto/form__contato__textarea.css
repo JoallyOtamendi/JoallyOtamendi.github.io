@@ -1,0 +1,13 @@
+.form__contato__textarea {
+    padding: 1rem;
+    width: 100%;
+    resize: none;
+}
+
+.form__contato__textarea:hover{
+    border-bottom: 2px solid var(--magenta);
+}
+
+.form__contato__textarea{
+    resize: none;
+}

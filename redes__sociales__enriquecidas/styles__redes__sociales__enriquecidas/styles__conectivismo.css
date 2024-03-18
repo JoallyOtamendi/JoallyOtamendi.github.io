@@ -1,0 +1,41 @@
+#conectivismo__titulo{
+    text-align: center;
+}
+iframe {
+    width: 450px;
+    height: 300px;
+    margin: 10px;
+}
+
+.conectivismo {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+/*Tablet*/
+@media screen and (max-width: 768px) {
+    .conectivismo{
+        flex-direction: column;
+        width: 70%;
+        margin: 0;
+    }
+    ifrem{
+        width: 100%;
+    }
+}
+
+/*celular*/
+@media screen and (max-width: 0) {
+    .conectivismo{
+        flex-direction: column;
+        width: 70%;
+        margin: 0;
+    }
+    iframe{
+        width: 100%;
+        margin: 5px;
+    }
+}

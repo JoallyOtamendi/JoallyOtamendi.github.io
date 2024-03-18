@@ -1,0 +1,47 @@
+h1 {
+    font-size: 50px;
+    color: darkblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.son {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #07629A;
+}
+
+.son h1 {
+    font-size: 70px;
+    margin: 15px;
+    color: white;
+    text-align: center;
+}
+
+.son p {
+    font-size: 30px;
+    width: 80%;
+    font-family: "Josefin Sans", sans-serif;
+    color: black;
+}
+
+/*Tablet*/
+@media screen and (max-width: 768px) {
+    .son {
+        max-width: 768px;
+    }
+    .son h1{
+        font-size: 50px;
+    }
+}
+
+
+/*celular*/
+@media screen and (max-width: 0) {
+    .son {
+        max-width: 0px;
+    }
+    .son h1{
+        font-size: 40px;
+    }
+}

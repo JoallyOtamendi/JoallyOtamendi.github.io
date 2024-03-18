@@ -1,0 +1,40 @@
+#titulo__propuesta{
+    text-align: center;
+}
+.propuesta__de__redes {
+    display: flex;
+    width: 100%;
+}
+
+.caja {
+    flex: 1;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.caja img {
+    width: 150px;
+    height: 130px;
+}
+
+.caja p {
+    color: black;
+    font-size: 20px;
+}
+
+/*celular*/
+@media screen and (max-width: 0) {
+    .header , .menu, #definciones__importantes {
+        display: flex;
+        flex-direction: column;
+    }
+    .caja{
+        flex: auto;
+        width: 60%;
+    }
+    .propuesta__de__redes{
+        width: 80%;
+    }
+    
+}

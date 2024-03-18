@@ -1,0 +1,14 @@
+/*Tablet*/
+@media screen and (max-width: 768px){
+    .academic__courses__list{
+        flex-direction: column;
+    }
+    }
+
+
+/*celular*/
+@media screen and (max-width: 0){
+    .academic__courses__list{
+        flex-direction: column;
+    }
+ }

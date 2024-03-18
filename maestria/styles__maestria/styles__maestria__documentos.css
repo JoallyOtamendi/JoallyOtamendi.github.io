@@ -1,0 +1,75 @@
+.contenedor__documentos{
+background-color: #206408;
+}
+
+.documentos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.documentos2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.acta, .ingles, .certificado__licenciatura, .cv,.exposicion__motivos {
+    width: 100%;
+    margin: 15px 0;
+    padding: 15px;
+}
+
+.documentos h1, .documentos2 h1{
+    font-size: 21px;
+    color: white;
+    text-align: justify;
+    margin: 10px;
+}
+
+.btn {
+    background-color: white;
+    color: #206408;
+    padding: 5px;
+    width: 100px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+#contenido, #contenido2, #contenido3, #contenido4, #contenido5 { 
+    display: none;
+}
+
+.acta img, .cv img, .exposicion__motivos img {
+    width: 90%;
+    height: 500px;
+}
+
+.ingles img{
+    width: 90%;
+    height: 550px;
+}
+
+.certificado__licenciatura img{
+width: 95%;
+height: 350px;
+}
+
+/*Tablet*/
+@media screen and (max-width: 768px) {
+    .documentos, .documentos2{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+/*celular*/
+@media screen and (max-width: 0) {
+    .documentos, .documentos2 {
+        display: flex;
+        flex-direction: column;
+    }    
+}

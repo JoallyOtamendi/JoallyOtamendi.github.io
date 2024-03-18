@@ -1,0 +1,21 @@
+#nombre {
+    font-size: 70px;
+    font-style: times new roman;
+    text-align: center;
+    color: purple;
+}
+
+/*Tablet*/
+@media screen and (max-width: 768px){
+    #nombre{
+        font-size: 45px;
+    }
+    }
+
+
+/*celular*/
+@media screen and (max-width: 0){
+    #nombre{
+        font-size: 30px;
+    }
+ }

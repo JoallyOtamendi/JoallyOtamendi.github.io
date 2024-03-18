@@ -1,0 +1,43 @@
+.encabezado {
+    background-color: #8973DE;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#titulo__formacion{
+    font-size: 90px;
+    color: white;
+    text-align: center;
+}
+
+#i__fa{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+
+/*Tablet*/
+@media screen and (max-width: 768px){
+    #titulo__formacion{
+        font-size: 45px;
+    }
+    #i__fa{
+        width: 90px;
+        height: 90px;
+    }
+    }
+
+
+/*celular*/
+@media screen and (max-width: 0){
+    #titulo__formacion{
+        font-size: 30px;
+    }
+    #i__fa{
+        width: 30px;
+        height: 30px;
+    }
+ }

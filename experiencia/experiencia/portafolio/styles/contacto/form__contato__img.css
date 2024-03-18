@@ -1,0 +1,14 @@
+/*Tablet*/
+@media screen and (max-width: 768px){
+    .form__contato__img{
+        display: none;
+    }
+    }
+
+
+/*celular*/
+@media screen and (max-width: 0){
+    .form__contato__img{
+        display: none;
+    }
+ }

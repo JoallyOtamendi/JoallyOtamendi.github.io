@@ -1,0 +1,20 @@
+.skills__line{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+/*Tablet*/
+@media screen and (max-width: 768px){
+    .skills__line{
+        flex-direction: column;
+    }
+    }
+
+
+/*celular*/
+@media screen and (max-width: 0){
+    .skills__line{
+        flex-direction: column;
+    }
+ }

@@ -1,0 +1,33 @@
+.experience__section__title{
+    font-size: 2rem;
+    color: #44079B;
+}
+
+.experience__text{
+    font-weight: normal;
+    font-size: 1rem;
+    color: #44079B;
+}
+
+.experience__info{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    color: #44079B;
+    width: 400px;
+}
+
+/*Tablet*/
+@media screen and (max-width: 768px){
+    .experience__info{
+        width: 90%;
+    }
+    }
+
+
+/*celular*/
+@media screen and (max-width: 0){
+    .experience__info{
+        width: 90%;
+    }
+ }

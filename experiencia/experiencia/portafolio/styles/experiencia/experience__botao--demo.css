@@ -1,0 +1,11 @@
+.experience__botao--demo{
+        padding: .8rem;
+        background-color: var(--fiusha);
+        color: white;
+        border: 1px solid white;
+        cursor: pointer;
+}
+
+.experience__botao--demo:hover{
+    color: var(--lila);
+}

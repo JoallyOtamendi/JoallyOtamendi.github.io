@@ -1,0 +1,11 @@
+@media screen and (min-width:0){
+    .clogo{
+        display: none;
+    }
+ }
+
+ @media screen and (min-width: 768px){
+    .clogo{
+        display: block;
+    }
+ }

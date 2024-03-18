@@ -1,0 +1,18 @@
+.form__contato__boton{
+    width: 30%;
+}
+
+/*Tablet*/
+@media screen and (max-width: 768px){
+    .form__contato__boton{
+        width: 45%;
+    }
+    }
+
+
+/*celular*/
+@media screen and (max-width: 0){
+    .form__contato__boton{
+        width: 45%;
+    }
+ }

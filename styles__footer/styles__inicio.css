@@ -1,0 +1,19 @@
+.index {
+    position: fixed;
+    /* Posición fija para mantener el botón en su lugar */
+    bottom: 20px;
+    /* Ajuste vertical desde la parte inferior */
+    right: 20px;
+    /* Botón circular */
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s;
+}
+
+.home{
+     width: 50px;
+    height: 50px;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+}

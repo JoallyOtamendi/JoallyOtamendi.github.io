@@ -1,0 +1,77 @@
+.contenedor__principal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.acta__examen{
+    width: 35%;
+    height: 500px;
+    margin: 40px 5%;
+}
+
+.contenedor__licenciatura{
+    width: 45%;
+    height: 500px;
+    margin: 40px 5%;
+}
+
+.contenedor__licenciatura img{
+height: 400px;
+width: 90%;
+}
+
+.contenedor__licenciatura h1{
+    color: #206408;
+    font-size: 50px;
+}
+
+/*Tablet*/
+@media screen and (max-width: 768px){
+    .contenedor__principal{
+        flex-direction: column;
+    }
+    .acta__examen{
+        width: 80%;
+        margin: 5px;
+    }
+    .contenedor__licenciatura{
+        width: 90%;
+        margin: 5px;
+        height: 300px;
+    }
+    .contenedor__licenciatura h1{
+        font-size: 45px;
+    }
+    .contenedor__licenciatura img{
+        height: 200px;
+        width: 80%;
+    }
+    }
+
+
+/*celular*/
+@media screen and (max-width: 0){
+    .contenedor__principal{
+        flex-direction: column;
+        justify-content: center;
+        margin: 0;
+    }
+    .acta__examen{
+        width: 80%;
+        margin: 5px;
+    }
+    .contenedor__licenciatura{
+        width: 90%;
+        margin: 5px;
+        height: 150px;
+    }
+    .contenedor__licenciatura h1{
+        font-size: 35px;
+    }
+    .contenedor__licenciatura img{
+        width: 60%;
+        height: 250px;
+        margin: 0;
+    }
+    }

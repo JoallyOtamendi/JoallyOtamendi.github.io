@@ -1,0 +1,18 @@
+.menu__list__item{
+    color: var(--magenta);
+}
+
+.menu__list__item:hover{
+    color: var(--fiusha);
+}
+
+.menu__list__item a{
+    font-weight: bold;
+}
+
+/*Tablet*/
+@media screen and (max-width: 768px){
+    .menu__list__item{
+        display: none;
+    }
+}

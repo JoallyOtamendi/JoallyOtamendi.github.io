@@ -1,0 +1,47 @@
+.contenedor__java{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.javaymysql{
+    width: 40%;
+    margin: 3% 1%; 
+}
+
+.carta__poo{
+    width: 40%;
+    margin: 3% 1%;
+}
+
+/*Tablet*/
+@media screen and (max-width: 768px) {
+    .contenedor__java{
+        flex-direction: column;
+       }
+       .javaymysql{
+        width: 90%;
+        margin: 1% 5%;
+       }
+       .carta__poo{
+        width: 90%;
+        margin: 1% 5%;
+       }
+}
+
+
+/*celular*/
+@media screen and (max-width: 0) {
+   .contenedor__java{
+    flex-direction: column;
+   }
+   .javaymysql{
+    width: 90%;
+    margin: 1% 5%;
+   }
+   .carta__poo{
+    width: 90%;
+    margin: 1% 5%;
+   }
+}

@@ -1,0 +1,27 @@
+.rac{
+    width: 60%;
+    height: 800px;
+    margin: 30px 20%;
+    border: 0;
+    display: flex;
+}
+
+/*Tablet*/
+@media screen and (max-width: 768px){
+    .rac{
+        margin: 5px 5%;
+        width: 90%;
+        height:350px;
+        
+    }
+    }
+
+
+/*celular*/
+@media screen and (max-width: 0){
+    .rac{
+        margin: 5px 5%;
+        width: 90%;
+        height: 150px;
+    }
+    }

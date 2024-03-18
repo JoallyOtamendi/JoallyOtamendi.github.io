@@ -1,0 +1,7 @@
+.form__contato__input{
+    padding: 1rem;
+}
+
+.form__contato__input:hover{
+    border-bottom: 2px solid var(--magenta);
+}

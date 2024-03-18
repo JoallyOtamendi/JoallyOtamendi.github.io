@@ -1,0 +1,37 @@
+.propuesta__de__redes{
+    display: flex;
+}
+.caja{
+    flex: 1;
+    padding: 10px;
+}
+
+/*Tablet*/
+@media screen and (max-width: 768px) {
+    .header, .menu, #definiciones__importantes{
+        display: flex;
+        flex-direction: column;
+    }
+    .propuesta__de__redes{
+        flex-direction: column;
+    }
+    .caja{
+        flex: auto;
+    }
+}
+
+
+/*celular*/
+@media screen and (max-width: 0) {
+    .header , .menu, #definciones__importantes {
+        display: flex;
+        flex-direction: column;
+    }
+    .propuesta__de__redes{
+        flex-direction: column;
+    }
+    .caja{
+        flex: auto;
+    }
+    
+}

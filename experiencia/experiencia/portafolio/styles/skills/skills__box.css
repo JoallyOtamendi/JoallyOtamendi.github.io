@@ -1,0 +1,6 @@
+.skills__box{
+    width: 8rem;
+    height: 8rem;
+    color: var(--fiusha);
+    flex-direction: row;
+}

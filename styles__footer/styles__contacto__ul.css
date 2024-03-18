@@ -1,0 +1,29 @@
+.contacto ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content: center;
+    margin: 3px 23%;
+}
+
+/*Tablet*/
+@media screen and (max-width: 768px){
+    .contacto ul{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin: 5px;
+    }
+    }
+
+
+/*celular*/
+@media screen and (max-width: 0){
+    .contactou ul{
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        margin: 3px;
+    }
+    }

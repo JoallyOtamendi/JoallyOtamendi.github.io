@@ -1,0 +1,55 @@
+.contenedor__protocolo{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    margin: 3%;
+}
+
+.protocolo__titulo{
+    color: #206408;
+    margin-left: 5%;
+}
+
+.protocolo{
+    font-size: 20px;
+    box-sizing: border-box;
+    border: 3px solid #206408;
+    border-radius: 15px;
+    text-decoration: none;
+    color: #206408;
+    padding: 5px;
+    margin-right: 5%;
+    height: 1%;
+}
+
+a:hover{
+    background-color: #206408;
+    color: white;
+}
+
+/*Tablet*/
+@media screen and (max-width: 768px) {
+    .contenedor__protocolo{
+        width: 90%; 
+    }
+    .protocolo__titulo{
+        font-size: 30px;
+    }
+    .protocolo{
+        font-size: 15px;
+        padding: 5px 1px;
+    }
+}
+/*celular*/
+@media screen and (max-width: 0) {
+    .contenedor__protocolo{
+        width: 90%;
+    }
+    .protocolo__titulo{
+        font-size: 15px;
+    }
+    .protocolo{
+        font-size: 10px;
+    }
+}

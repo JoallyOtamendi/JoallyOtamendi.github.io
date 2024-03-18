@@ -1,0 +1,22 @@
+.contenido {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/*Tablet*/
+@media screen and (max-width: 768px){
+    .contenido{
+        flex-direction: column;
+    }
+    }
+
+
+/*celular*/
+@media screen and (max-width: 0){
+    .contenido{
+        flex-direction: column;
+    }
+ }

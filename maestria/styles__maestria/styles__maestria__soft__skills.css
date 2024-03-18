@@ -1,0 +1,46 @@
+.soft__skills__titulo{
+    font-size: 40px;
+    color: #206408;
+    text-align: center;
+}
+
+.soft__skills{
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.soft__skills img{
+    width: 70px;
+    height: 70px;
+    border: #206408 solid;
+    border-radius: 50%;
+    margin: 2px 25%;
+}
+
+.skills{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.skill, .img__skill{
+    list-style: none;
+}
+
+/*Tablet*/
+@media screen and (max-width: 768px){
+    .soft__skills{
+        flex-direction: column;
+    }
+    }
+
+
+/*celular*/
+@media screen and (max-width: 0){
+    .soft__skills{
+        flex-direction: column;
+    }
+ }

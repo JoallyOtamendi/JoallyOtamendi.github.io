@@ -1,0 +1,22 @@
+footer{
+    text-align: center;
+    background: #206408;
+    padding: 20px;
+    color: black;
+}
+
+/*Tablet*/
+@media screen and (max-width: 768px){
+    footer{
+        width: 100%;
+    }
+    }
+
+
+/*celular*/
+@media screen and (max-width: 0){
+   footer{
+    width: 100%;
+   }
+    }
+

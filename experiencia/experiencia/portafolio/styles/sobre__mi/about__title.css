@@ -1,0 +1,18 @@
+.about__title{
+    font-size: 2.5rem;
+    color: var(--violeta);
+}
+
+/*Tablet*/
+@media screen and (max-width: 768px){
+    .about__title{
+        font-size: 1.5rem;
+    }
+    }
+
+/*celular*/
+@media screen and (max-width: 0){
+    .about__title{
+        font-size: 1.5rem;
+    }
+ }

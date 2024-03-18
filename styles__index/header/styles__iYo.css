@@ -1,0 +1,20 @@
+.iYo {
+    width: 150px;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/*Tablet*/
+@media screen and (max-width: 768px){
+    .iYo{
+        width: 90px;
+    }
+    }
+
+
+/*celular*/
+@media screen and (max-width: 0){
+    .iYo{
+        width: 50px;
+    }
+ }

@@ -1,0 +1,11 @@
+.title__bio{
+    font-size: 4rem;
+    color: var(--violeta);
+}
+
+/*Tablet*/
+@media screen and (max-width: 768px){
+    .title__bio{
+        font-size: 1rem;
+    }
+}

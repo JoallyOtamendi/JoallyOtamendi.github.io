@@ -1,0 +1,26 @@
+.contenido li{
+
+    display: inline-block;
+    text-align: center;
+    width: 280px;
+    height: 300px;
+    margin: 20px;
+    vertical-align: top;
+    box-sizing: border-box;
+    border: 3px solid #FC047B;
+    border-radius: 15px;
+}
+
+.contenido li:hover{
+    border-color: #FC047B;
+}
+
+.contenido h2{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.contenido li:hover h2 {
+    font-size: 33px;
+}

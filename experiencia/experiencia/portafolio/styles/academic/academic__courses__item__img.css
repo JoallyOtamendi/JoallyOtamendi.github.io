@@ -1,0 +1,15 @@
+.academic__courses__item__img{
+    background-color: var(--lila);
+    padding: 2rem;
+    justify-content: center;
+    position: relative;
+    margin: auto;
+}
+
+.logoUaemex{
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    box-sizing: border-box;
+    text-align: center;;
+}
