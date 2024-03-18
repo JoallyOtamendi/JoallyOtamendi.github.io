@@ -12,11 +12,11 @@ function encriptar (){
 var boton1 = document.querySelector("#btn-encriptar"); boton1.onclick = encriptar;
 
 function desencriptar (){ 
-    var texto = document.querySelector("#texto").value; 
+    var texto = document.querySelector("#texto-output").value; 
     var textoCifrado = texto.replace(/enter/gi, "e").replace(/imes/gi, "i").replace(/ai/gi, "a").replace(/ober/gi, "o").replace(/ufat/gi, "u"); 
     console.log(texto)
     console.log(textoCifrado)
-    let salida1= document.getElementById('texto-output');
+    let salida1= document.getElementById('texto');
     salida1.value=textoCifrado;
 
 }

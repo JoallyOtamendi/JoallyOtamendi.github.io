@@ -25,15 +25,6 @@ pincel.clearRect(0,0,600,400);
 
 var x = 0
 
-function actualizarPantalla(){
-
-	limpiarPantalla();
-	xAleatorio = dianaAleatoria(600);
-    yAleatorio = dianaAleatoria(400);
-    diana(xAleatorio,yAleatorio);
-	x++;
-}
-
 function diana (x,y){
 
 dibujarCirculo(x,y,60,"red");
@@ -48,6 +39,17 @@ function dianaAleatoria(maximo){
 
 }
 
+function actualizarPantalla(){
+
+	limpiarPantalla();
+	xAleatorio = dianaAleatoria(600);
+    yAleatorio = dianaAleatoria(400);
+    diana(xAleatorio,yAleatorio);
+	x++;
+}
+
+
+
 //xAleatorio = dianaAleatoria(600);
 //yAleatorio = dianaAleatoria(400);
 //diana(xAleatorio,yAleatorio);
@@ -57,7 +59,7 @@ function disparar(evento){
 var x = evento.pageX - pantalla.offsetLeft;
 var y = evento.pageY - pantalla.offsetTop;
 
-    if((x< xAleatorio+20) && (x<xAleatorio-20) && (y<yAleatorio+20) && (y<yAleatorio-20)){
+    if((x> xAleatorio-20) && (x<xAleatorio+20) && (y>yAleatorio-20) && (y<yAleatorio+20)){
         alert("¡Diste en el blanco!") 
     }
 	
