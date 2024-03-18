@@ -1,20 +1,30 @@
-.habilidad{
+.habilidad {
     display: flex;
     justify-content: center;
     flex-direction: row;
 }
-.habilidad h1{
+
+.habilidad h1 {
     text-align: center;
     color: purple;
     font-size: 60px;
 }
-.logo, .logo__gyg{
+
+.logo,
+.logo__gyg {
     width: 70px;
     height: 70px;
-    margin: 5% 10%;
+    margin-top: 10px;
+    margin-left: 5px;
 }
 
-.otros{
+.habilidad__link {
+    font-size: 20px;
+    color: purple;
+    text-align: center;
+}
+
+.otros {
     width: 60px;
     height: 60px;
     margin: 1% 2%;
@@ -22,18 +32,18 @@
 
 /*Tablet*/
 @media screen and (max-width: 768px) {
-    .gyg{
+    .gyg {
         font-size: 30px;
         width: 70%;
-        }
-       
+    }
+
 }
 
 
 /*celular*/
 @media screen and (max-width: 0) {
-   .gyg{
-font-size: 30px;
-width: 70%;
-}
+    .gyg {
+        font-size: 30px;
+        width: 70%;
+    }
 }

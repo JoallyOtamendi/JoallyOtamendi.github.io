@@ -1,56 +1,59 @@
-.programas{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    flex-direction: column;
+.contenido li {
+
+    display: inline-block;
+    text-align: center;
+    width: 280px;
+    height: 300px;
+    margin: 20px;
+    vertical-align: top;
+    box-sizing: border-box;
+    border: 1px solid purple;
+    border-radius: 15px;
 }
 
-.programas h1{
-    font-size: 70px;
+.contenido li:hover {
+    border-color: purple;
+}
+
+.programas h1 {
     text-align: center;
     color: purple;
 }
 
-.programas__logos{
-    flex-direction: row;
-    justify-content: center;
-    display: flex;
+.contenido h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 20px;
 }
 
-.logo__programa{
+.contenido li:hover h2 {
+    font-size: 33px;
+}
+
+.logo__programa {
     width: 150px;
     height: 150px;
-    margin-left: 5%;
+}
+
+.contenido {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 /*Tablet*/
 @media screen and (max-width: 768px) {
-    .programas{
-        width: 90%;
-    }
-    .programas h1{
-        font-size: 30px;
-    }
-    .logo__programa{
-        width: 50px;
-        height: 50px;
-        margin-left: 1%;
+    .contenido {
+        flex-direction: column;
     }
 }
 
 
 /*celular*/
 @media screen and (max-width: 0) {
-    .programas{
-        width: 90%;
-    }
-    .programas h1{
-        font-size: 30px;
-    }
-    .logo__programa{
-        width: 50px;
-        height: 50px;
-        margin-left: 1%;
+    .contenido {
+        flex-direction: column;
     }
 }
-
