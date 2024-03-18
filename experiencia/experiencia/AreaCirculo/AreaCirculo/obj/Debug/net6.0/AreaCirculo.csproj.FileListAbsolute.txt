@@ -1,0 +1,15 @@
+C:\Users\joall\source\repos\AreaCirculo\AreaCirculo\bin\Debug\net6.0\AreaCirculo.exe
+C:\Users\joall\source\repos\AreaCirculo\AreaCirculo\bin\Debug\net6.0\AreaCirculo.deps.json
+C:\Users\joall\source\repos\AreaCirculo\AreaCirculo\bin\Debug\net6.0\AreaCirculo.runtimeconfig.json
+C:\Users\joall\source\repos\AreaCirculo\AreaCirculo\bin\Debug\net6.0\AreaCirculo.dll
+C:\Users\joall\source\repos\AreaCirculo\AreaCirculo\bin\Debug\net6.0\AreaCirculo.pdb
+C:\Users\joall\source\repos\AreaCirculo\AreaCirculo\obj\Debug\net6.0\AreaCirculo.csproj.AssemblyReference.cache
+C:\Users\joall\source\repos\AreaCirculo\AreaCirculo\obj\Debug\net6.0\AreaCirculo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joall\source\repos\AreaCirculo\AreaCirculo\obj\Debug\net6.0\AreaCirculo.AssemblyInfoInputs.cache
+C:\Users\joall\source\repos\AreaCirculo\AreaCirculo\obj\Debug\net6.0\AreaCirculo.AssemblyInfo.cs
+C:\Users\joall\source\repos\AreaCirculo\AreaCirculo\obj\Debug\net6.0\AreaCirculo.csproj.CoreCompileInputs.cache
+C:\Users\joall\source\repos\AreaCirculo\AreaCirculo\obj\Debug\net6.0\AreaCirculo.dll
+C:\Users\joall\source\repos\AreaCirculo\AreaCirculo\obj\Debug\net6.0\refint\AreaCirculo.dll
+C:\Users\joall\source\repos\AreaCirculo\AreaCirculo\obj\Debug\net6.0\AreaCirculo.pdb
+C:\Users\joall\source\repos\AreaCirculo\AreaCirculo\obj\Debug\net6.0\AreaCirculo.genruntimeconfig.cache
+C:\Users\joall\source\repos\AreaCirculo\AreaCirculo\obj\Debug\net6.0\ref\AreaCirculo.dll
