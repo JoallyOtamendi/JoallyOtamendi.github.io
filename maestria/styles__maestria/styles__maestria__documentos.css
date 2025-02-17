@@ -16,7 +16,7 @@ background-color: #206408;
     width: 100%;
 }
 
-.acta, .ingles, .certificado__licenciatura, .cv,.exposicion__motivos {
+.trayectoria, .carta__recomendacion, .carta__motivos {
     width: 100%;
     margin: 15px 0;
     padding: 15px;
@@ -42,20 +42,12 @@ background-color: #206408;
     display: none;
 }
 
-.acta img, .cv img, .exposicion__motivos img {
+.trayectoria img, .carta__recomendacion img, .carta__motivos img {
     width: 90%;
     height: 500px;
 }
 
-.ingles img{
-    width: 90%;
-    height: 550px;
-}
 
-.certificado__licenciatura img{
-width: 95%;
-height: 350px;
-}
 
 /*Tablet*/
 @media screen and (max-width: 768px) {
