@@ -4,10 +4,15 @@
     justify-content: space-between;
 }
 
-.acta__examen{
+
+.img__carrusel {
     width: 35%;
     height: 500px;
     margin: 40px 5%;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    background-color: #206408;
 }
 
 .contenedor__licenciatura{
