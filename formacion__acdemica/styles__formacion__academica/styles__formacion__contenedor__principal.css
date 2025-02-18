@@ -2,11 +2,13 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    width: 90%;
+    flex-wrap: wrap; /* Permite que los elementos se ajusten a nuevas líneas si es necesario */
 }
 
 
 .carrusel {
-    width: 35%;
+    width: 50%;
     height: 500px;
     margin: 40px 5%;
 }
@@ -23,7 +25,7 @@
 
 .contenedor__licenciatura img{
 height: 400px;
-width: 90%;
+width: 80%;
 }
 
 .img__carrusel {
@@ -38,14 +40,17 @@ width: 90%;
     font-size: 50px;
 }
 
+
+
 /*Tablet*/
 @media screen and (max-width: 768px){
     .contenedor__principal{
         flex-direction: column;
+        align-items: center;
     }
-    .acta__examen{
-        width: 80%;
-        margin: 5px;
+    .carrusel{
+        width: 95%;
+        margin: 2%;
     }
     .contenedor__licenciatura{
         width: 90%;
@@ -57,7 +62,8 @@ width: 90%;
     }
     .contenedor__licenciatura img{
         height: 200px;
-        width: 80%;
+        width: 70%;
+       align-items: center;
     }
     }
 
@@ -68,10 +74,11 @@ width: 90%;
         flex-direction: column;
         justify-content: center;
         margin: 0;
+        align-items: center;
     }
-    .acta__examen{
-        width: 80%;
-        margin: 5px;
+    .carrusel{
+        width: 95%;
+        margin: 2%;
     }
     .contenedor__licenciatura{
         width: 90%;
@@ -85,5 +92,6 @@ width: 90%;
         width: 60%;
         height: 250px;
         margin: 0;
+        align-items: center;
     }
     }

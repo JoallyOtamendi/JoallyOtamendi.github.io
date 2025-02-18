@@ -30,6 +30,7 @@
 @media screen and (max-width: 768px) {
     .contenedor__uaem {
         flex-direction: column;
+        margin-top: 10px;
     }
 
     .contenedor__datos__uaem {
@@ -45,6 +46,8 @@
         border: 1px;
         width: 95%;
         height: 200px;
+        margin-top: 20px;
+        align-items: center;
     }
 }
 
@@ -54,7 +57,7 @@
     .contenedor__uaem {
         flex-direction: column;
         justify-content: center;
-        margin: 0;
+        margin-top: 10px;
         width: 70%;
         height: 200px;
     }
@@ -78,5 +81,7 @@
         border: 1px;
         width: 95%;
         height: 200px;
+        margin-top: 20px;
+        align-items: center;
     }
 }
