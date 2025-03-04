@@ -23,6 +23,14 @@
     height: 1%;
 }
 
+.trayectoria  .carta__recomendacion{
+    height: 40%;
+    width: 30%;
+}
+.carta__motivos{
+    
+}
+
 a:hover{
     background-color: #206408;
     color: white;
